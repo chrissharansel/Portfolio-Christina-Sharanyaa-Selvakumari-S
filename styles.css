@@ -1,0 +1,403 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f7f7f7;
+    margin: 0;
+    padding: 0;
+    background-image: url("./behind.png"); 
+  background-size: cover;
+  background-position: center;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+
+  }
+  .hero{
+    font-family: "Forte";
+  }
+  
+  h1{
+    font-family:Algerian;
+  }
+  header h1 {
+    margin: 0;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+
+  
+  section {
+    padding: 20px;
+    margin-top:50px;
+  }
+  
+  .project, .certificate {
+    color:rgb(44, 32, 81);
+    background-color:#B5C0D0;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+    
+    border:dashed rgb(78, 78, 185)
+  }
+  
+  .project h3, .certificate h3 {
+    margin-top: 0;
+  }
+  
+  .project a, .certificate a {
+    display: block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .project a:hover, .certificate a:hover {
+    color: #666;
+  }
+  .certificate img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+  }
+  img{
+    width:400px;
+    display:block;
+    border:solid #333;
+  }
+  .back-button {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  
+  .back-button:hover {
+    text-decoration: underline;
+  }
+  main {
+    margin-top: 80px; /* Adjust this value to account for the height of the fixed header */
+    padding: 20px;
+    overflow-y: auto; /* Enable vertical scrolling */
+  }
+  .scroll{
+    margin-top: 150px;
+  }
+  /* Your existing CSS styles */
+
+.about-content {
+  display: flex;
+  align-items: center; /* Align items vertically */
+}
+
+.about-image {
+  margin-right: 30px;
+  padding:20px;
+  height: auto;
+  max-width: 100%;
+
+}
+
+/* Your existing CSS styles */
+
+.about-content {
+  display: flex;
+  flex-direction: column; /* Align items vertically */
+  align-items: center;
+}
+
+.quote {
+  display: flex;
+  align-items: center;
+  color:rgb(74, 49, 141);
+  font-size: 20px;
+  font-family: 'forte'; /* Align items horizontally */
+  
+}
+
+.about-image {
+  margin-right: 20px;
+}
+
+/* Additional styling for sections */
+#intro {
+  background-color: #B5C0D0;
+  padding: 5px;
+  border: ridge;
+}
+
+#edu {
+  background-color: #CCD3CA;
+  padding: 5px;
+  border: ridge bisque;
+}
+
+#proj {
+  background-color: #C7C8CC;
+  padding: 5px;
+  border: ridge bisque;
+}
+
+#goals {
+  background-color: #B5C0D0;
+  padding: 5px;
+  border: ridge bisque;
+}
+
+
+/* Additional styling for sections */
+#intro {
+  background-color: #B5C0D0;
+  padding: 5px;
+  border: ridge;
+}
+
+#edu {
+  background-color: #CCD3CA;
+  padding: 5px;
+  border: ridge bisque;
+}
+
+#proj {
+  background-color: #C7C8CC;
+  padding: 5px;
+  border: ridge bisque;
+}
+
+#goals {
+  background-color: #B5C0D0;
+  padding: 5px;
+  border: ridge bisque;
+}
+
+
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f7f7f7;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+  }
+  
+  h1 {
+    margin: 0;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  main {
+    margin-top: 80px; /* Adjust this value to account for the height of the fixed header */
+    padding: 20px;
+  }
+  
+  section {
+    margin-bottom: 40px;
+  }
+  
+  .contact-details p {
+    margin: 5px 0;
+    font-size: 20px;
+  }
+  
+  .contact-details p strong {
+    margin-right: 5px;
+  }
+  
+  .contact-details p a {
+    color: #333;
+  }
+  
+ 
+  
+  
+  
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+  }
+  #pic{
+    margin-top:100px;
+    width:700px;
+    height:1000px;
+  }
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+    color: #fff;
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  nav ul li a.active {
+    font-weight: bold;
+  }
+  
+  main {
+    margin-top: 80px; /* Adjust this value to account for the height of the fixed header */
+  }
+  
+  .hero {
+    background-image: url('background-image.jpg'); /* Add your background image here */
+    background-size: cover;
+    background-position: center;
+    height: 100vh; /* Set hero section to full viewport height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .hero-content {
+    text-align: center;
+  }
+  
+  .hero-content h2 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+  }
+  
+  .hero-content p {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+  }
+  
+  .btn {
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .btn:hover {
+    background-color: #555;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+  }
+  
+
+  /* SKILLS*/
+ 
+  
+  #skills li {
+    margin-bottom: 10px; /* Add spacing between each skill */
+    position: relative;
+    font-size: 20px;
+  }
+  
+  #skills li:before {
+    content: ""; /* Add a bullet point */
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+
+    border-radius: 50%; /* Make the bullet point round */
+    margin-right: 10px;
+  }
+  
+ 
+  #thnk{
+    background-color: #B5C0D0;
+    border: dashed rgb(99, 99, 242);
+    padding:10px;
+    font-size: 20px;
+  }

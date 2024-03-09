@@ -1,0 +1,146 @@
+
+  .about-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .about-image {
+    margin-right: 20px;
+    float:left;
+  }
+  
+  .about-text {
+    max-width: 600px; /* Adjust the maximum width as needed */
+  }
+  
+  .about-text p {
+    margin-bottom: 15px;
+  }
+  
+  .about-text ul {
+    margin-bottom: 15px;
+  }
+  
+  .about-text ul li {
+    margin-left: 20px;
+    list-style-type: square;
+  }
+  
+  .about-text ul li:last-child {
+    margin-bottom: 0;
+  }
+  
+
+  #intro{
+    background-color: #B5C0D0;
+    padding:5px;
+    border: ridge;
+  }
+  #edu{
+    background-color: #CCD3CA;
+    padding:5px;
+    border: ridge bisque;
+  }
+  #proj{
+    background-color: #C7C8CC;
+    padding:5px;
+    border: ridge bisque;
+  }
+  #goals{
+    background-color: #B5C0D0;
+   
+    padding:5px;
+    border: ridge bisque;
+
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  .about-content {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+
+  }
+  
+  .about-image {
+    margin-right: 20px;
+    display:block;
+   
+  }
+  
+  .about-text {
+    max-width: 600px; /* Adjust the maximum width as needed */
+  }
+  
+  .about-text p {
+    margin-bottom: 15px;
+  }
+  
+  .about-text ul {
+    margin-bottom: 15px;
+  }
+  
+  .about-text ul li {
+    margin-left: 20px;
+    list-style-type: square;
+  }
+  
+  .about-text ul li:last-child {
+    margin-bottom: 0;
+  }
+  
+  .quote {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    margin-left: auto;
+  }
+  
+  /* Additional styling for sections */
+  #intro {
+    background-color: #B5C0D0;
+    padding:5px;
+    border: ridge;
+  }
+  #edu{
+    background-color: #CCD3CA;
+    padding:5px;
+    border: ridge bisque;
+    display:block;
+  }
+  #proj{
+    background-color: #C7C8CC;
+    padding:5px;
+    border: ridge bisque;
+    display:block;
+  }
+  #goals{
+    background-color: #B5C0D0;
+   
+    padding:5px;
+    border: ridge bisque;
+    display:block;
+
+  } 
