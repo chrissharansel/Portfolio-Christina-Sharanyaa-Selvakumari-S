@@ -1,2 +1,3 @@
 # Portfolio-Christina-Sharanyaa-Selvakumari-S
-This is a portfolio website that I have created on my own to display my achievements and goals.
+This portfolio website serves as a curated platform showcasing my professional achievements, career objectives, and aspirations. Designed and developed independently, it offers a comprehensive overview of my skills, experiences, and future endeavors.
+
